@@ -11,5 +11,17 @@ namespace Tidsreg_Api.Controllers
     [ApiController]
     public class TidsregController : ControllerBase
     {
+
+        [HttpPost]
+        public IActionResult Post()
+        {
+            return Ok("Hello");
+        }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return 
+        }
     }
 }
