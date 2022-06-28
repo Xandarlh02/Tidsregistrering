@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #2B2D2F;
+}
+.btn{
+    height: 100%;
+    background-color: transparent;
+    color:white
+}
+.btn:hover{
+    height: 100%;
+    background-color: white;
+    color:black
+}
