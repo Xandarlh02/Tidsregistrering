@@ -13,5 +13,20 @@ namespace Tidsreg_Api.DAL
         public DBContext() : base()
         {
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder
+            .UseSqlite(@"Data Source = Tidsreg.db;");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<RegistreringsModel>().HasData(
+
+            new RegistreringsModel() { Id= 1, Date = "Today", TimeUsed = 1, Customer = "Paul", ContactPerson = "Paul2", Description = "Hello", InternDescription = "Hello" }
+
+
+            ) ; ;
+        }
     }
 }
