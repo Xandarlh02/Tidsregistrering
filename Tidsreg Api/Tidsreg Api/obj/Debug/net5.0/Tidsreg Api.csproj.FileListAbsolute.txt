@@ -1,0 +1,29 @@
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\appsettings.json
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Tidsreg Api.exe
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Tidsreg Api.deps.json
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Tidsreg Api.runtimeconfig.json
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Tidsreg Api.runtimeconfig.dev.json
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Tidsreg Api.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\ref\Tidsreg Api.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Tidsreg Api.pdb
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.csprojAssemblyReference.cache
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.AssemblyInfoInputs.cache
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.AssemblyInfo.cs
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.csproj.CoreCompileInputs.cache
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\staticwebassets\Tidsreg Api.StaticWebAssets.Manifest.cache
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\staticwebassets\Tidsreg Api.StaticWebAssets.xml
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\scopedcss\bundle\Tidsreg Api.styles.css
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.RazorTargetAssemblyInfo.cache
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.csproj.CopyComplete
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\ref\Tidsreg Api.dll
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.pdb
+C:\Users\Alexandar\Documents\GitHub\Tidsregistrering\Tidsreg Api\Tidsreg Api\obj\Debug\net5.0\Tidsreg Api.genruntimeconfig.cache

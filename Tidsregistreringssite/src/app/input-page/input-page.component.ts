@@ -10,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 
 export class InputPageComponent implements OnInit {
 
+  //This makes the selector start at the current date
+  defaultDate = new Date((new Date().getTime()));
 
   name: string = '';
-  date = ""
+  date = "";
+  timeUsed = "";
+  customerName = "";
+  contactPerson = "";
+  description = "";
+  interDescription = "";
+
+  sendForm(){
+    
+  }
 
   constructor() { }
   

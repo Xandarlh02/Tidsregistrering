@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qSrewgStrcdxhM4pjy1HWeQBrBpKAK0d1o9sSsuycCzhz5/TzzcY1s8qfZssF/Ze3ZejlHINS3lnkDMG0xdqIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexandar\\Documents\\GitHub\\Tidsregistrering\\Tidsreg Api\\Tidsreg Api\\Tidsreg Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexandar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Alexandar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Alexandar\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Alexandar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Alexandar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Alexandar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
