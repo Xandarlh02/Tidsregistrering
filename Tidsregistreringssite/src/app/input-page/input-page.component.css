@@ -1,5 +1,5 @@
 .main-div{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,9 +7,9 @@
   }
 
 .card{
-
     padding: 1%;
-    height: 70vh;  
+    margin-top: -10%;
+    height: 70vh;
     width: 40%;
     text-align: center;
 }

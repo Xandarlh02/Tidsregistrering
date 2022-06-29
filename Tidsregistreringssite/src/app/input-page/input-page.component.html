@@ -2,49 +2,44 @@
 <div class="main-div">
 <mat-card class="card" layout-align="center center">
     <mat-card-title>Tidsregistrering</mat-card-title>
-    
+<form [formGroup]="tidsregForm">
     <mat-form-field class="formField" appearance="fill">
         <mat-label>Vælg en slutdato</mat-label>
-        <input matInput [(ngModel)]="date" [matDatepicker]="picker">
+        <input matInput formControlName="Date" [matDatepicker]="picker">
         <mat-hint>MM/DD/ÅÅÅÅ</mat-hint>
         <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
         <mat-datepicker [startAt]="defaultDate" #picker></mat-datepicker>
     </mat-form-field>
     <br>
     <mat-form-field class="formField" appearance="fill">
-        <mat-label>Medarbejder</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="name">
-    </mat-form-field>
-    <br>
-    <mat-form-field class="formField" appearance="fill">
         <mat-label>Timer brugt</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="timeUsed">
+        <input matInput type="text" class="input" formControlName="TimeUsed">
     </mat-form-field>
     <br>
     <mat-form-field class="formField" appearance="fill">
         <mat-label>Kunde</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="customerName">
+        <input matInput type="text" class="input" formControlName="Customer">
     </mat-form-field>
     <br>
     <mat-form-field class="formField" appearance="fill">
         <mat-label>Kontaktperson</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="contactPerson">
+        <input matInput type="text" class="input" formControlName="ContactPerson">
     </mat-form-field>
     <br>
     <mat-form-field class="formField" appearance="fill">
         <mat-label>Beskrivelse</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="description">
+        <input matInput type="text" class="input" formControlName="Description">
     </mat-form-field>
     <br>
     <mat-form-field class="formField" appearance="fill">
         <mat-label>Intern beskrivelse</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="interDescription">
+        <input matInput type="text" class="input" formControlName="InternDescription">
     </mat-form-field>
     <br>
-    <button mat-flat-button class="btn" (click)="sendForm()">Indsend</button>
-    
-    
+    <button mat-flat-button class="btn" (click)="submit()">Indsend</button>
+  </form>
+
 </mat-card>
-<p>{{ date }}</p>
+<p></p>
 </div>
 
