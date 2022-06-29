@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TidsregService } from 'src/tidsreg.service';
 import { Tidsreg } from 'src/classes/tidsreg'
 import { FormBuilder, Validators } from '@angular/forms';
+import { numbers } from '@material/toolbar';
 
 
 
@@ -30,19 +31,24 @@ export class InputPageComponent implements OnInit {
   submit(){
     const tidsreg = this.tidsregForm.value;
     this.createTidsreg(tidsreg)
-    console.log("Hej")
+    console.log(tidsreg)
   }
 
-  constructor(private formbulider: FormBuilder, private tidsregSerice:TidsregService) { }
+  constructor(private formbuilder: FormBuilder, private tidsregSerice:TidsregService) { }
 
   ngOnInit() {
-    this.tidsregForm = this.formbulider.group({
-      Date: [''],
-      TimeUsed: [''],
-      Customer: [''],
-      ContactPerson: [''],
-      Description: [''],
-      InternDescription: [''],
+    this.tidsregForm = this.formbuilder.group({
+      date: [''],
+      timeUsed: [numbers],
+      customer: [''],
+      contactPerson: [''],
+      description: [''],
+      internDescription: [''],
+    });
+
+    let hej = this.tidsregSerice.getAllTidsregs()
+    hej.forEach(element => {
+      console.log(element)
     });
   }
 

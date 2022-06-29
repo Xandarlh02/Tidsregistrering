@@ -14,11 +14,10 @@ export class TidsregService {
     return this.http.get<Tidsreg[]>(this.url + '/GetReg');
   }
 
-  createTidsreg(tidsreg: Tidsreg): Observable<Tidsreg> {
+  createTidsreg(tidsreg: any): Observable<Tidsreg> {
     console.log("Test")
     const httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json'}) };
-    return this.http.post<Tidsreg>(this.url + '/PostReg/',
+    return this.http.post<any>(this.url + '/PostReg',
     tidsreg, httpOptions);
   }
-
 }
