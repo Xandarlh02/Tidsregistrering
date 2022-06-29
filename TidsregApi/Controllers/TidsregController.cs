@@ -24,6 +24,7 @@ namespace TidsregApi.Controllers
         [HttpPost("PostReg")]
         public List<Registrering> Post([FromBody] Registrering registrering)
         {
+          
             TidsregDAL.registrering.Add(registrering);
             
             return TidsregDAL.registrering;

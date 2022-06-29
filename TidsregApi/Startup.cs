@@ -48,7 +48,8 @@ namespace TidsregApi
 
             app.UseCors(
                 x => x
-                .AllowAnyOrigin());
+                .AllowAnyOrigin()
+                .AllowAnyHeader());
 
             app.UseRouting();
 

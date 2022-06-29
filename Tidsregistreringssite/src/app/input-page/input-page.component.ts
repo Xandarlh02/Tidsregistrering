@@ -31,7 +31,6 @@ export class InputPageComponent implements OnInit {
   submit(){
     const tidsreg = this.tidsregForm.value;
     this.createTidsreg(tidsreg)
-    console.log(tidsreg)
   }
 
   constructor(private formbuilder: FormBuilder, private tidsregSerice:TidsregService) { }
@@ -46,10 +45,6 @@ export class InputPageComponent implements OnInit {
       internDescription: [''],
     });
 
-    let hej = this.tidsregSerice.getAllTidsregs()
-    hej.forEach(element => {
-      console.log(element)
-    });
   }
 
 
