@@ -21,6 +21,8 @@ namespace TidsregApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+
                 });
+
     }
 }
