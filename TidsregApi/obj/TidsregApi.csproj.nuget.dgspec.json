@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alex303a\\source\\repos\\TidsregApi\\TidsregApi.csproj": {}
+    "C:\\Users\\alex303a\\Documents\\GitHub\\Tidsregistrering\\TidsregApi\\TidsregApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alex303a\\source\\repos\\TidsregApi\\TidsregApi.csproj": {
+    "C:\\Users\\alex303a\\Documents\\GitHub\\Tidsregistrering\\TidsregApi\\TidsregApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex303a\\source\\repos\\TidsregApi\\TidsregApi.csproj",
+        "projectUniqueName": "C:\\Users\\alex303a\\Documents\\GitHub\\Tidsregistrering\\TidsregApi\\TidsregApi.csproj",
         "projectName": "TidsregApi",
-        "projectPath": "C:\\Users\\alex303a\\source\\repos\\TidsregApi\\TidsregApi.csproj",
+        "projectPath": "C:\\Users\\alex303a\\Documents\\GitHub\\Tidsregistrering\\TidsregApi\\TidsregApi.csproj",
         "packagesPath": "C:\\Users\\alex303a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex303a\\source\\repos\\TidsregApi\\obj\\",
+        "outputPath": "C:\\Users\\alex303a\\Documents\\GitHub\\Tidsregistrering\\TidsregApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
