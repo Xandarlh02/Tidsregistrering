@@ -1,0 +1,25 @@
+.main-div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.card{
+  padding: 1%;
+  margin-top: -10%;
+  height: 70vh;
+  width: 40%;
+  text-align: center;
+}
+.formField{
+  width: 50%;
+}
+.btn{
+  background-color: lightblue;
+}
+.btn:hover{
+  background-color: lightskyblue;
+}
+

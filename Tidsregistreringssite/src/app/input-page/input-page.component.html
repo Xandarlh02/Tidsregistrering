@@ -1,50 +1,46 @@
+<body scroll="no" style="overflow: hidden">
 
-<div class="main-div">
-<mat-card class="card" layout-align="center center">
-    <mat-card-title>Tidsregistrering</mat-card-title>
-    
+  <div class="main-div">
+    <mat-card class="card" layout-align="center center">
+      <mat-card-title>Tidsregistrering</mat-card-title>
+<form [formGroup]="tidsregForm" (ngSubmit)="submit()">
     <mat-form-field class="formField" appearance="fill">
         <mat-label>Vælg en slutdato</mat-label>
-        <input matInput [(ngModel)]="date" [matDatepicker]="picker">
+        <input matInput formControlName="date" [matDatepicker]="picker">
         <mat-hint>MM/DD/ÅÅÅÅ</mat-hint>
         <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
         <mat-datepicker [startAt]="defaultDate" #picker></mat-datepicker>
-    </mat-form-field>
-    <br>
-    <mat-form-field class="formField" appearance="fill">
-        <mat-label>Medarbejder</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="name">
-    </mat-form-field>
-    <br>
-    <mat-form-field class="formField" appearance="fill">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="formField" appearance="fill">
         <mat-label>Timer brugt</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="timeUsed">
-    </mat-form-field>
-    <br>
-    <mat-form-field class="formField" appearance="fill">
+        <input matInput type="number" class="input" formControlName="timeUsed">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="formField" appearance="fill">
         <mat-label>Kunde</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="customerName">
-    </mat-form-field>
-    <br>
-    <mat-form-field class="formField" appearance="fill">
+        <input matInput type="text" class="input" formControlName="customer">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="formField" appearance="fill">
         <mat-label>Kontaktperson</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="contactPerson">
-    </mat-form-field>
-    <br>
-    <mat-form-field class="formField" appearance="fill">
+        <input matInput type="text" class="input" formControlName="contactPerson">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="formField" appearance="fill">
         <mat-label>Beskrivelse</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="description">
-    </mat-form-field>
-    <br>
-    <mat-form-field class="formField" appearance="fill">
+        <input matInput type="text" class="input" formControlName="description">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="formField" appearance="fill">
         <mat-label>Intern beskrivelse</mat-label>
-        <input matInput type="text" class="input" [(ngModel)]="interDescription">
+        <input matInput type="text" class="input" formControlName="internDescription">
     </mat-form-field>
     <br>
-    <button mat-flat-button class="btn" (click)="sendForm()">Indsend</button>
-    
-    
+    <button mat-flat-button class="btn" (click)="submit()">Indsend</button>
+  </form>
+
 </mat-card>
-<p>{{ date }}</p>
 </div>
+</body>
 
